@@ -1,0 +1,22 @@
+#navbarContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+
+    #logo{
+        margin: 0 0 0 50px;
+    }
+
+    #actionBtns{
+        width: 70px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+    #actionBtns:last-child{
+        margin: 0 50px 0 0;
+    }
+}

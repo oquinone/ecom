@@ -1,0 +1,20 @@
+#cardOuterContainer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    // border: 1px solid red;
+    margin: 50px 100px;
+}
+
+#cardContainer{
+    width: 10%;
+}
+
+.cardImage{
+    height: 250px;
+    width: 250px
+}
+
+#addCartBtn{
+    width: 100%;
+}
